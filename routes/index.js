@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'NTO' });
+  res.render('index', { title: 'NTO BackEnd Hybrid POC' });
 });
 
 module.exports = router;
